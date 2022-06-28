@@ -7,6 +7,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+header{
+    background-color: lightslategray;
+}
 #cabecalho-pecas{
     width: 100%;
     max-height: 400px;
@@ -27,7 +30,6 @@ a{
     text-align: center;
     display: inline-block;
     font-size: 33px;
-    background-color: lightslategray;
     vertical-align: top;
     width: 100%;
     
@@ -41,16 +43,18 @@ nav li {
     font-weight: bold;
     margin: 000025px;
 }
-
-nav a {
-    text-decoration: none;
-    color: black;
-}
-
+.promo{
+    text-align: center;
+    margin: 10px auto 0px auto;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 3px solid;}
 /*conteudo main*/
-#container_adjust-main{
+ 
+#container_adjust-main {
     display: flex;
     justify-content: center;
+    margin: 25px 10px;
 }
 .promoimg{
     width: 100%;
@@ -59,6 +63,28 @@ nav a {
 #promocionais{
     display: flex;
     justify-content: space-around;
+}
+.container__promocionais{
+    border: solid black;
+}
+.obs{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.content_price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.fa-credit-card{
+    background-image:url("cartaocredito.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
 }
 /*rodape*/
 .layrodape{
