@@ -2,53 +2,67 @@
 /* cabeçalho e navegaçao */
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    background:linear-gradient(lightslategray,azure);
+    background:linear-gradient(#141414 , #bfbfbf);
 }
 a{
     text-decoration: none;
     color: inherit;
 }
-
-
-#cabecalho-pecas{
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+.container-header{
     display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
-
- .nomelogo {
-    font-size: 80px;
-    color: lightslategray;
-    text-shadow: 3px 0 3px white;
-    position: absolute;
-    top: 20px;
-    left: 21px;
-    
- }
-.navegacao{
+.container_text-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name-logo_adjust{
     text-align: center;
-    display: inline-block;
-    font-size: 33px;
-    vertical-align: top;
-    width: 100%;
+}
+.name-logo{
+    font-size: 60px;
+    color: silver;
+    text-shadow: 1px 1px whitesmoke;
+}
+.subname-logo{
+    font-size: 14px;
+    color: silver;
+}
+.logo-image{
+    background-image: url("logoloja.png");
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    background-size: 120px;
+}
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navigation-itens{
+    display:flex;
+    width: 60%;
+}
+.navigation-itens ul{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
     
 }
-.navegacao li:hover{
-    background-color: azure;
-    transition-delay: 0.1s;
+.nav_list{
+    color: #bfbfbf;
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 5px;
 }
-nav li {
-    display: inline;
-    font-weight: bold;
-    margin: 000025px;
+.nav_list:hover{
+    border-bottom: 3px solid;
 }
-.promo{
-    text-align: center;
-    margin: 10px auto 0px auto;
-    font-size: 32px;
-    font-weight: bold;
-    border-bottom: 3px solid;}
 /*conteudo main*/
  
 #container_adjust-main {
@@ -66,7 +80,7 @@ nav li {
 }
 .container__promocionais{
     border: solid black;
-    width: 30%;
+    width: 22%;
 }
 .container__promocionais:hover{
     box-shadow: 4px 4px 4px 4px lightslategray;
