@@ -1,0 +1,36 @@
+.container_carrousel{
+    margin-top: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: #141414;
+}
+.textoPagamento{
+    text-align: center;
+    font-family: 'Courgette', cursive;;
+    font-size: 20px;
+    color:#bfbfbf;
+}
+
+.pagamento{
+    background-image: url("../img/formasdepagamento.png") ;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 140px;
+    width: 400px;
+    background-size: 400px;
+    margin-top: 3px;
+}
+.logo__telefone-rodape{
+    font-size: 20px;
+    color: #bfbfbf; 
+    margin-left: 15px;
+}
+.logo_telefone-rodape{
+    font-size: 20px;
+    color: #bfbfbf;
+   
+}
