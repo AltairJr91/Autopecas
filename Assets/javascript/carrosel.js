@@ -5,11 +5,11 @@ const img = document.querySelectorAll(".img__fit");
 var imgx = 0;
 
 function carrosel(){
-    imgx++
+    imgx++;
     if(imgx > img.length -1){
-        imgx =0;
+        imgx = 0;
     }
     imagens.style.transform = `translateX(${-imgx * 200}px)`;
 }
 
-setInterval(carrosel, 1800);
+setInterval(carrosel, 1200);

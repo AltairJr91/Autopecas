@@ -1,20 +1,17 @@
 .container_carrousel{
-    margin-top: 20px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    margin: 20px 500px;
+    overflow: hidden;
 }
 #img{
     display: flex;
     object-fit: cover;
-    overflow: hidden;
     align-items: center;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1.2s ease-in-out;
     transform: translateX(0);
     width: 840px;
 }
 .img__fit{
-    width: 280px;
+    width: 250px;
     
 }
 
