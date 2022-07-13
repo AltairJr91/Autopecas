@@ -1,0 +1,15 @@
+#sobre{
+    display: flex;
+    margin: 0 25px;
+}
+
+.sobre__txt{
+    text-align: center;
+    margin-top: 50px;
+}
+.sobre__img{
+
+}
+.sobre__img-adj{
+
+}
