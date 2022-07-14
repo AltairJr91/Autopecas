@@ -1,0 +1,27 @@
+
+.search{
+    text-align: center;
+}
+.input__search{
+    height: 40px;
+    width: 40%;
+    text-align: center;
+}
+.products{
+    margin-top: 25px;
+}
+.products__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+.products__list li{
+    font-size: 22px;
+    color: silver;
+    cursor: pointer;
+}
+.products__list li:hover{
+    color: black;
+}
